@@ -1,0 +1,44 @@
+.navbar-header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar {
+    background: transparent;
+
+}
+
+
+.navbar li a {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+
+}
+
+.navbar li a:hover, .navbar li a:active  {
+    border-bottom: 2px solid red;
+    border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+
+/*
+
+
+.navbar{
+    padding: 8px 0;
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}*/
