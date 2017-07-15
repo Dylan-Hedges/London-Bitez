@@ -1,44 +1,89 @@
+
+/*---------------------NAVIGATION BAR---------------------*/
+
+
+.navbar {
+    background: transparent;
+    border: none;
+    font-family: 'Lato';
+
+
+}
+
+/*-----London Bitez Logo----*/
 .navbar-header img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    padding: 0;
+    margin: 0;
 }
 
-.navbar {
-    background: transparent;
-
-}
-
-
+/*----Nav Bar Titles----*/
 .navbar li a {
     text-transform: uppercase;
-    padding-bottom: 20px;
+    text-align: right;
+    color: white;
+    padding-top: 20px;
 
+}
 
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover  {
+    color: white;
 }
 
 .navbar li a:hover, .navbar li a:active  {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #c00000;
     border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+
+}
+
+/*----Nav Bar Collapsed---*/
+.navbar-collapse{
+    border: none;
+    box-shadow: none;
+/*    float: left !important;*/
 }
 
 
-/*
 
 
-.navbar{
-    padding: 8px 0;
-    color: #ff0000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 90%;
-    border-bottom: 2px solid transparent;
-    border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+/*---------------------SPLASH PAGE---------------------*/
+
+.splash-page {
+
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/splash_background.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/splash_background.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
-    border-bottom: 2px solid #e67e22;
-}*/
+
+
+
+
+/*---------------------SOCIAL MEDIA ICONS---------------------*/
+.fa fa-facebook,
+.fa fa-twitter,
+.fa fa-googleplus,
+.fa fa-instagram {
+    transition: color 0.2s;
+}
+
+.fa fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa fa-googleplus:hover {
+    color: #dd4b39;
+}
+
+.fa fa-instagram:hover {
+    color: #517fa4;
+}
