@@ -139,22 +139,49 @@ h1 {
 /*-------------------------------------ABOUT PAGE------------------------------------*/
 
 .about-page {
-    margin: 30px;
+    margin: 30px 0 0 0;
 }
 
-.about-page i{
+.about-page-icons i{
     padding:0;
     font-size: 400%;
-    margin-left: 50%;
+    margin: 10% 0 0 50%;
 }
 
-.about-page p{
-    margin-top: 30px;
+
+/*---------------SOCAIL MEDIA ICONS ANIMATION-----------------*/
+.js--wp-1 {
+    opacity: 0;
+    animation-duration: 2s;
+}
+
+.js--wp-1.animated {
+    opacity: 1;
+}
+
+.about-page-content {
+    margin: 7% 0 0 0;
+}
+
+.about-page-content img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.about-page-content p {
+    font-size: 18px;
     text-align: center;
+
 }
-
-
-
+/* -- used to center image inside of col-lg-6 etc, already in bootstrap copied as an FYI---
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+*/
 
 
 
