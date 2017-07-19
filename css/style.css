@@ -198,6 +198,24 @@ h1 {
 }
 
 
+.gallery-page a{
+    padding: 0 !important;
+}
+
+.gallery-page img {
+    opacity: 0.8;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.gallery-page img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    /*z-index: 1; position:relative; on zoom layers image on top of others*/
+    z-index: 1; position:relative;
+}
+
+
+/*---------------POP UP IMAGE GALLERY-----------------*/
 .ekko-lightbox-nav-overlay a{
     font-size: 100px;
 
@@ -207,7 +225,4 @@ h1 {
     padding: 0;
 }
 
-.gallery-page a{
-    padding: 0 !important;
 
-}
