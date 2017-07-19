@@ -8,7 +8,12 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--Pop up image gallery (CSS file) -->
+    <link rel="stylesheet" type="text/css" href="css/lightbox-master/ekko-lightbox.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
 
 
 </head>
@@ -80,22 +85,72 @@
         </div>
     </section>
 
+    <section class="gallery-page">
+        <div class="container">
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                </a>
+            </div>
+            <div class="row">
+                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                </a>
+                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
+                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </section>
+
 
 <!-----------------------------SCRIPTS--------------------------------->
     <!-- jQuery link must come before Javascript -->
 	<script
     src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <!-- Link to JavaScript-->
-	<script type="text/javascript"src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Link to maxcdn JS file (makes nav bar hamburger work - interfers with image gallery)-->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- Link to JavaScript (required for animations to work)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-
     <!-- Link to WayPoint   -->
     <script src="js/jquery.waypoints.min.js"></script>
-    <!-- Link to site javascript file   -->
+
+    <!-- ISSUE Link to Bootstrap JS file (makes pop up gallery work - interfers with hamburger)  -->
+    <script src="js/bootstrap/js/bootstrap.js"></script>
+
+
+    <!--Pop up image gallery (JS file and script created by http://ashleydw.github.io/lightbox/) -->
+    <script src="js/lightbox-master/ekko-lightbox.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+
+    <!-- Link to London Bitez JS file-->
     <script src="js/script.js"></script>
+
 
 
 </body>
