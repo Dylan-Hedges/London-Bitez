@@ -19,6 +19,16 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 200%;
+    color: #f4f4f4;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
 /*---------------------SOCAIL MEDIA ICONS---------------------*/
 .fa-facebook,
 .fa-twitter,
@@ -227,7 +237,7 @@ h1 {
 }
 
 
-/*-------------------------------------LOCATIONS PAGE------------------------------------*/
+/*------------------------------LOCATIONS PAGE----------------------------------*/
 .locations-page{
     margin: 5% 0 0 0;
 }
@@ -251,4 +261,62 @@ h1 {
 
 .locations-page p{
     text-align: center;
+}
+
+/*------------------------------TESTIMONIALS PAGE----------------------------------*/
+
+.testimonials-page {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonals-background.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    padding: 3% 0 10% 0;
+    margin: 3% 0 0 0;
+}
+
+.testimonials-page h2 {
+    text-align: center;
+    padding: 0 0 3% 0;
+
+}
+
+
+.testimonials-page blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonials-page blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonials-page cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonials-page cite img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*------------------------------MAP PAGE----------------------------------*/
+
+/*.map {} styles the Google Map on our page*/
+.map {
+    width: 100%;
+    height: 500px;
+    padding: 20px 0 0 0;
 }
