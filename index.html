@@ -19,9 +19,7 @@
 </head>
 
 <body>
-    <div id="instafeed">
 
-    </div>
 
     <section class="splash-page">
         <div class="container">
@@ -93,48 +91,7 @@
 
 
     <section class="gallery-page">
-        <div class="container-fluid">
-            <div class="row">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-                 <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="row">
-                <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-lg-2 col-md-4 col-sm-6 col-xm-12">
-                    <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                </a>
-            </div>
-        </div>
+        <div id="instafeed"></div>
     </section>
 
     <section class="locations-page">
@@ -210,12 +167,12 @@
     <script type="text/javascript">
         var feed = new Instafeed ({
 
-//            get: 'popular',
-//            tagName: 'London',
-//            clientId:  'ENTER CLIENT ID',
             get: 'user',
-            userId: 'ENTER USER ID',
+            userId: 'ENTER ID',
             accessToken: 'ENTER ACCESS TOKEN',
+            limit: '10',
+            sortBy: 'most-liked',
+            resolution:'standard_resolution'
         });
 
         feed.run();
