@@ -72,6 +72,44 @@ h2 {
 }
 
 
+/*---------------ANIMATIONS-----------------*/
+.js--wp-1 {
+    opacity: 0;
+    animation-duration: 4s;
+}
+
+.js--wp-1.animated {
+    opacity: 1;
+}
+
+.js--wp-2 {
+    opacity: 0;
+    animation-duration: 3s;
+}
+
+.js--wp-2.animated {
+    opacity: 1;
+}
+
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 3s;
+}
+
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+.js--wp-4 {
+    opacity: 0;
+    animation-duration: 3s;
+}
+
+.js--wp-4.animated {
+    opacity: 1;
+}
+
+
 
 
 
@@ -100,9 +138,12 @@ h2 {
     padding-top: 20px;
 }
 
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover  {
+
+#navstyle{
     color: #fff;
+
 }
+
 
 .navbar li a:hover, .navbar li a:active  {
     border-bottom: 2px solid #c00000;
@@ -153,7 +194,7 @@ h2 {
 /*-------------------------------------ABOUT PAGE------------------------------------*/
 
 .about-page {
-    margin: 2% 0 0 0;
+    margin: 3% 0 0 0;
 }
 
 .about-page-icons i{
@@ -163,15 +204,7 @@ h2 {
 }
 
 
-/*---------------SOCAIL MEDIA ICONS ANIMATION-----------------*/
-.js--wp-1 {
-    opacity: 0;
-    animation-duration: 2s;
-}
 
-.js--wp-1.animated {
-    opacity: 1;
-}
 
 .about-page-content {
     margin: 7% 0 0 0;
@@ -201,13 +234,13 @@ h2 {
 /*-------------------------------------GALLERY PAGE------------------------------------*/
 
 .gallery-page{
-    margin: 3% 0 0 0;
+    margin: 4% 0 0 0;
 }
 
 
 .gallery-page h1{
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 #instafeedcontainer{
@@ -320,10 +353,7 @@ h2 {
 
 
 
-.nav-link , scroll{
-    color: none;
-    background-color: none;
-}
+
 
 
 
