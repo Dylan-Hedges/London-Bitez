@@ -50,10 +50,14 @@ h2 {
     color: #0084b4;
 }
 
+
 .fa-twitter:hover {
     color: #00aced;
 }
 
+.fa-google-plus {
+    color: #bc4334;
+}
 
 .fa-google-plus:hover {
     color: #dd4b39;
@@ -232,6 +236,10 @@ h2 {
     margin: 5% 0 0 0;
 }
 
+.removespaces{
+    padding: 0 !important;
+}
+
 .locations-page h1{
     text-align: center;
     margin-bottom: 4%;
@@ -245,8 +253,7 @@ h2 {
 .locations-page img {
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+
 }
 
 .locations-page p{
@@ -310,4 +317,22 @@ h2 {
     height: 500px;
     padding: 20px 0 0 0;
 }
+
+
+
+.nav-link , scroll{
+    color: none;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
