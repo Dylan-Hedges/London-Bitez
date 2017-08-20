@@ -14,4 +14,16 @@ $(document).ready(function() {
         lng: -0.1273014
     });
 
+
+
+
+
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: '',
+            accessToken: '',
+            resolution: 'standard_resolution'
+        });
+        userFeed.run();
+
 });

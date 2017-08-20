@@ -196,43 +196,34 @@ h2 {
 
 /*-------------------------------------GALLERY PAGE------------------------------------*/
 
-
 .gallery-page{
-    margin: 7% 0 0 0;
+    margin: 3% 0 0 0;
 }
+
+
+.gallery-page h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#instafeedcontainer{
+   padding: 0 0 0 3% !important;
+}
+
 
 .gallery-page img {
-    width: 20%;
-    margin: 0;
-    padding: 0;
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    transition: transform 1s, opacity 0.5s;
 }
 
-
-.gallery-page a{
-    padding: 0 !important;
-}
-
-.gallery-page img {
-    opacity: 0.8;
-    transition: transform 0.5s, opacity 0.5s;
-}
 
 .gallery-page img:hover {
-    opacity: 1;
-    transform: scale(1.03);
-    /*z-index: 1; position:relative; on zoom layers image on top of others*/
+    opacity: 1.5;
+    transform: scale(2);
+/*    z-index: 1; position:relative; on zoom layers image on top of others*/
     z-index: 1; position:relative;
-}
-
-
-/*---------------POP UP IMAGE GALLERY-----------------*/
-.ekko-lightbox-nav-overlay a{
-    font-size: 100px;
-
-}
-
-.modal-body {
-    padding: 0;
 }
 
 
