@@ -121,7 +121,10 @@ h2 {
     font-family: 'Lato';
 }
 
+
 /*-----London Bitez Logo----*/
+
+
 .navbar-header img {
     width: 110px;
     height: 110px;
@@ -131,6 +134,8 @@ h2 {
 }
 
 /*----Nav Bar Titles----*/
+
+
 .navbar li a {
     text-transform: uppercase;
     text-align: right;
@@ -165,8 +170,11 @@ h2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/splash_background.jpg);
     background-size: cover;
     background-position: left;
-    height: 100vh;
+/*    height: 100vh;*/
+    background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 25%
+
 }
 
 .splash-page-content {
@@ -218,6 +226,7 @@ h2 {
 .about-page-content p {
     text-align: center;
     margin-bottom: 5%;
+    font-weight: 400;
 
 }
 /* -- used to center image inside of col-lg-6 etc, already in bootstrap copied as an FYI---
@@ -295,8 +304,8 @@ h2 {
 .testimonials-page {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonals-background.jpg);
     background-size: cover;
-    color: #fff;
     background-attachment: fixed;
+    color: #fff;
     padding: 3% 0 10% 0;
     margin: 3% 0 0 0;
 }
@@ -314,7 +323,7 @@ h2 {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
-    font-size: 130%;
+    font-size: 110%;
 }
 
 .testimonials-page blockquote:before {
@@ -354,9 +363,16 @@ h2 {
 /*------------------------------FOOTER---------------------------------*/
 
 footer {
-    padding: 1% 0 1% 0;
+    padding: 1% 0 0 0;
     margin: 0;
     font-size: 80%;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-nav-left {
@@ -367,6 +383,10 @@ footer {
 .social-links {
     list-style: none;
     float: right;
+}
+
+.footer-nav, .social-links{
+    margin-bottom: 0 !important;
 }
 
 .footer-nav li,
@@ -397,15 +417,10 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 160%;
+    font-size: 140%;
 }
 
-footer p {
-    color: #888;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
+
 
 
 
