@@ -216,7 +216,6 @@ h2 {
 }
 
 .about-page-content p {
-    font-size: 18px;
     text-align: center;
     margin-bottom: 5%;
 
@@ -315,6 +314,7 @@ h2 {
     line-height: 145%;
     position: relative;
     margin-top: 40px;
+    font-size: 130%;
 }
 
 .testimonials-page blockquote:before {
