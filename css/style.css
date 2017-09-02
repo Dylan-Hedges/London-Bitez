@@ -28,7 +28,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
 /*---------------------SOCAIL MEDIA ICONS---------------------*/
 .fa-facebook,
 .fa-twitter,
@@ -71,7 +70,6 @@ h2 {
     color: #bc2a8d;
 }
 
-
 /*---------------ANIMATIONS-----------------*/
 .js--wp-1 {
     opacity: 0;
@@ -109,10 +107,6 @@ h2 {
     opacity: 1;
 }
 
-
-
-
-
 /*-------------------------------------NAVIGATION BAR------------------------------------*/
 
 .navbar {
@@ -143,7 +137,6 @@ h2 {
     padding-top: 20px;
 }
 
-
 #navstyle{
     color: #fff;
 }
@@ -161,8 +154,6 @@ h2 {
 /*    float: left !important;*/
 }
 
-
-
 /*-------------------------------------SPLASH PAGE------------------------------------*/
 
 .splash-page {
@@ -172,13 +163,11 @@ h2 {
 /*    background-position: left;*/
 /*    height: 100vh;*/
     padding-bottom: 25%;
-
 }
 
 .splash-page-content {
     margin-top: 380px;
 }
-
 
 .splash-page-content h1{
     padding: 0px 40px 40px 0px;
@@ -187,15 +176,12 @@ h2 {
 
 .splash-page-content h1:hover{
     color: #841f64;
-
 }
 
 .splash-page-content i{
     padding: 0;
     font-size: 600%;
-
 }
-
 
 /*-------------------------------------ABOUT PAGE------------------------------------*/
 
@@ -225,8 +211,8 @@ h2 {
     text-align: center;
     margin-bottom: 5%;
     font-weight: 400;
-
 }
+
 /* -- used to center image inside of col-lg-6 etc, already in bootstrap copied as an FYI---
 .center-block {
     display: block;
@@ -241,16 +227,14 @@ h2 {
     margin: 4% 0 0 0;
 }
 
-
 .gallery-page h1{
     text-align: center;
     margin-bottom: 7%;
 }
 
 #instafeedcontainer{
-/*   padding: 0 0 0 3% !important;*/
+   padding: 0 0 0 3% !important;
 }
-
 
 .gallery-page img {
     height: 200px;
@@ -259,14 +243,12 @@ h2 {
     transition: transform 1s, opacity 0.5s;
 }
 
-
 .gallery-page img:hover {
     opacity: 1.5;
     transform: scale(2);
 /*    z-index: 1; position:relative; on zoom layers image on top of others*/
     z-index: 1; position:relative;
 }
-
 
 /*------------------------------LOCATIONS PAGE----------------------------------*/
 .locations-page{
@@ -290,7 +272,6 @@ h2 {
 .locations-page img {
     width: 100%;
     height: 100%;
-
 }
 
 .locations-page p{
@@ -311,9 +292,7 @@ h2 {
 .testimonials-page h2 {
     text-align: center;
     padding: 0 0 3% 0;
-
 }
-
 
 .testimonials-page blockquote {
     padding: 2%;
@@ -347,7 +326,6 @@ h2 {
     vertical-align: middle;
 }
 
-
 /*------------------------------MAP PAGE----------------------------------*/
 
 /*.map {} styles the Google Map on our page*/
@@ -355,8 +333,8 @@ h2 {
     width: 100%;
     height: 700px;
     padding: 20px 0 0 0;
+    color: #000000;
 }
-
 
 /*------------------------------FOOTER---------------------------------*/
 
@@ -417,22 +395,3 @@ footer p {
 .social-links li a:visited {
     font-size: 140%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
