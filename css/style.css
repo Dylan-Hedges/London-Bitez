@@ -100,12 +100,25 @@ h2 {
 
 .js--wp-4 {
     opacity: 0;
-    animation-duration: 3s;
 }
 
 .js--wp-4.animated {
+    animation-duration: 2s;
     opacity: 1;
 }
+
+.js--wp-5 {
+    opacity: 0;
+}
+
+.js--wp-5.animated {
+    animation-duration: 2s;
+    opacity: 1;
+}
+
+
+
+
 
 /*-------------------------------------NAVIGATION BAR------------------------------------*/
 
@@ -117,9 +130,12 @@ h2 {
 
 
 /*-----London Bitez Logo----*/
+/*
 .navbar-brand{
     margin-right: 20px !important;
 }
+*/
+
 
 .navbar-header img {
     width: 110px;
@@ -127,14 +143,16 @@ h2 {
     border-radius: 50%;
 }
 
-/*----Nav Bar Titles----*/
 
+
+/*----Nav Bar Titles----*/
 
 .navbar li a {
     text-transform: uppercase;
     text-align: right;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
+    font-size: 85%;
 }
 
 #navstyle{
@@ -270,6 +288,7 @@ h2 {
 .locations-page p{
     text-align: center;
     margin-top: 6%;
+    font-size: 120%;
 }
 
 .locations-page img {
@@ -319,6 +338,7 @@ h2 {
     font-size: 90%;
     margin-top: 25px;
     display: block;
+    font-weight: 400;
 }
 
 .testimonials-page cite img {
