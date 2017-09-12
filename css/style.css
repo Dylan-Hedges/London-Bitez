@@ -33,6 +33,7 @@ h2 {
 .fa-twitter,
 .fa-google-plus,
 .fa-instagram {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
@@ -73,6 +74,7 @@ h2 {
 /*---------------ANIMATIONS-----------------*/
 .js--wp-1 {
     opacity: 0;
+    -webkit-animation-duration: 4s;
     animation-duration: 4s;
 }
 
@@ -82,6 +84,7 @@ h2 {
 
 .js--wp-2 {
     opacity: 0;
+    -webkit-animation-duration: 3s;
     animation-duration: 3s;
 }
 
@@ -91,6 +94,7 @@ h2 {
 
 .js--wp-3 {
     opacity: 0;
+    -webkit-animation-duration: 3s;
     animation-duration: 3s;
 }
 
@@ -103,6 +107,7 @@ h2 {
 }
 
 .js--wp-4.animated {
+    -webkit-animation-duration: 2s;
     animation-duration: 2s;
     opacity: 1;
 }
@@ -112,6 +117,7 @@ h2 {
 }
 
 .js--wp-5.animated {
+    -webkit-animation-duration: 2s;
     animation-duration: 2s;
     opacity: 1;
 }
@@ -162,12 +168,12 @@ h2 {
 
 .navbar li a:hover, .navbar li a:active  {
     border-bottom: 2px solid #c00000;
-    border-bottom 0.2s;
 }
 
 /*----Nav Bar Collapsed---*/
 .navbar-collapse{
     border: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
 /*    float: left !important;*/
 }
@@ -175,6 +181,7 @@ h2 {
 /*-------------------------------------SPLASH PAGE------------------------------------*/
 
 .splash-page {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/splash_background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/splash_background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -261,11 +268,15 @@ h2 {
     height: 200px;
     width: 200px;
     opacity: 1;
+    -webkit-transition: opacity 0.5s, -webkit-transform 1s;
+    transition: opacity 0.5s, -webkit-transform 1s;
     transition: transform 1s, opacity 0.5s;
+    transition: transform 1s, opacity 0.5s, -webkit-transform 1s;
 }
 
 .gallery-page img:hover {
     opacity: 1.5;
+    -webkit-transform: scale(2);
     transform: scale(2);
 /*    z-index: 1; position:relative; on zoom layers image on top of others*/
     z-index: 1; position:relative;
@@ -303,6 +314,7 @@ h2 {
 /*------------------------------TESTIMONIALS PAGE----------------------------------*/
 
 .testimonials-page {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../img/testimonals-background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/testimonals-background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -406,6 +418,7 @@ footer p {
     text-decoration: none;
     border: 0;
     color: #888;
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
