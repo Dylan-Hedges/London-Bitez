@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    //---------------------ANIMATIONS---------------------
+
     //Fade in functionality - uses Animate.css
         $('.js--wp-1').waypoint(function(direction) {
             $('.js--wp-1').addClass('animated fadeIn');
@@ -30,7 +32,7 @@ $(document).ready(function() {
             offset: '80%'
         });
 
-//---------------------Scrolling---------------------
+//---------------------SCROLLING---------------------
     var scrollLink = $('.scroll');
 
     scrollLink.click(function(e) {
@@ -44,16 +46,14 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '',
-        accessToken: '',
+        userId: '4882411762',
+        accessToken: '4882411762.28b9a92.21892786d6e342369e02089da8ec4394',
         resolution: 'standard_resolution'
     });
     userFeed.run();
 
 
 });
-
-
 
 //---------------------MAP---------------------
 

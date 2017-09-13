@@ -122,10 +122,6 @@ h2 {
     opacity: 1;
 }
 
-
-
-
-
 /*-------------------------------------NAVIGATION BAR------------------------------------*/
 
 .navbar {
@@ -134,21 +130,11 @@ h2 {
     font-family: 'Lato';
 }
 
-
-/*-----London Bitez Logo----*/
-/*
-.navbar-brand{
-    margin-right: 20px !important;
-}
-*/
-
-
 .navbar-header img {
     width: 110px;
     height: 110px;
     border-radius: 50%;
 }
-
 
 
 /*----Nav Bar Titles----*/
@@ -175,7 +161,6 @@ h2 {
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-/*    float: left !important;*/
 }
 
 /*-------------------------------------SPLASH PAGE------------------------------------*/
