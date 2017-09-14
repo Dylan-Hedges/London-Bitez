@@ -165,15 +165,22 @@ h2 {
 
 /*-------------------------------------SPLASH PAGE------------------------------------*/
 
+
+
 .splash-page {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/splash_background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/splash_background.jpg);
     background-size: cover;
     background-attachment: fixed;
-/*    background-position: left;*/
-/*    height: 100vh;*/
+/*
+    background-position: left;
+    height: 100vh;
+*/
     padding-bottom: 25%;
 }
+
+
+
 
 .splash-page-content {
     margin-top: 380px;
@@ -332,18 +339,22 @@ h2 {
 }
 
 .testimonials-page cite {
-    font-size: 90%;
+    font-size: 80%;
     margin-top: 25px;
     display: block;
     font-weight: 400;
 }
 
 .testimonials-page cite img {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 5px;
     vertical-align: middle;
+}
+
+.testimonials-page .container{
+    padding: 0;
 }
 
 /*------------------------------MAP PAGE----------------------------------*/
@@ -415,4 +426,16 @@ footer p {
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 140%;
+}
+
+/*------------------------------iOS background image issue---------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    .splash-page {
+        background-attachment: scroll;
+    }
+
+    .testimonials-page {
+        background-attachment: scroll;
+    }
 }
